@@ -1,0 +1,456 @@
+[main] 15:09:00,995 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:09:00,997 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:09:00,998 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:09:00,999 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:09:01,000 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:09:01,230 ERROR [com.qmetry.qaf.automation.util.PropertyUtil] resources\application.properties (The system cannot find the path specified)
+[main] 15:09:01,233 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=14, qaf-Version=2.1, qaf-Build-Time=01-Jan-2019 19:18:14}
+[main] 15:09:01,234 ERROR [com.qmetry.qaf.automation.core.ConfigurationManager] C:\Users\ahmad.idrees\Desktop\qa-api-test-bdd-framework\resources not exist!
+[main] 15:09:01,579 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:09:01,591 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:01,595 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:01,720 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 15:09:01,726 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:01,726 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:01,729 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:09:01,743 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 15:09:01,747 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:01,747 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:01,811 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] java.lang.NullPointerException
+[main] 15:09:01,818 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: skip groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@7ea37dbf, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrect, sheetName=${serviceName}, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:09:01,841 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 15:09:01,842 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 15:09:01,842 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:01,844 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 15:09:01,845 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 15:09:01,845 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:01,845 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 15:09:01,871 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] [Ljava.lang.StackTraceElement;@7d3a22a9
+[main] 15:09:01,871 INFO  [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] Unable to create testng-failed-qas.xml
+[main] 15:09:01,871 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 15:09:01,876 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 15:09:28,926 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:09:28,929 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:09:28,930 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:09:28,935 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:09:28,936 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:09:29,235 ERROR [com.qmetry.qaf.automation.util.PropertyUtil] resources\application.properties (The system cannot find the path specified)
+[main] 15:09:29,239 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=14, qaf-Version=2.1, qaf-Build-Time=01-Jan-2019 19:18:14}
+[main] 15:09:29,241 ERROR [com.qmetry.qaf.automation.core.ConfigurationManager] C:\Users\ahmad.idrees\Desktop\qa-api-test-bdd-framework\resources not exist!
+[main] 15:09:29,732 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:09:29,738 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:29,739 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:29,755 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 15:09:29,760 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:29,760 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:29,763 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:09:29,771 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 15:09:29,772 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng is test:false
+[main] 15:09:29,772 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:29,810 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] java.lang.NullPointerException
+[main] 15:09:29,828 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: skip groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@35b74c5c, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrect, sheetName=${serviceName}, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:09:29,841 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 15:09:29,843 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 15:09:29,843 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:29,846 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 15:09:29,847 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 15:09:29,848 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:09:29,848 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 15:09:29,869 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] [Ljava.lang.StackTraceElement;@471a9022
+[main] 15:09:29,869 INFO  [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] Unable to create testng-failed-qas.xml
+[main] 15:09:29,869 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 15:09:29,873 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 15:13:43,403 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:13:43,406 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:13:43,407 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:13:43,413 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:13:43,414 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:13:43,799 ERROR [com.qmetry.qaf.automation.util.PropertyUtil] resources\application.properties (The system cannot find the path specified)
+[main] 15:13:43,804 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=14, qaf-Version=2.1, qaf-Build-Time=01-Jan-2019 19:18:14}
+[main] 15:13:43,805 ERROR [com.qmetry.qaf.automation.core.ConfigurationManager] C:\Users\ahmad.idrees\Desktop\qa-api-test-bdd-framework\resources not exist!
+[main] 15:13:44,414 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:13:44,423 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:44,423 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:44,451 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 15:13:44,454 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:44,454 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:44,456 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:13:44,462 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 15:13:44,463 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:44,463 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:44,678 INFO  [com.qmetry.qaf.automation.util.ExcelUtil] Rows : 6
+[main] 15:13:44,678 INFO  [com.qmetry.qaf.automation.util.ExcelUtil] Columns : 3
+[main] 15:13:44,733 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:13:44,734 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:44,734 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:44,735 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:13:45,011 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:13:45,317 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/1 is not null
+[main] 15:13:47,672 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:13:48,502 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:13:50,362 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:13:50,365 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:13:50,365 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:13:50,366 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:13:50,366 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:13:50,366 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/1 HTTP/1.1
+[main] 15:13:50,367 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/1 HTTP/1.1[\r][\n]"
+[main] 15:13:50,369 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:13:50,369 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:13:50,369 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:13:50,369 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:13:50,369 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:13:50,370 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> GET /v2/pet/1 HTTP/1.1
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:13:50,370 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:13:50,708 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 15:13:50,711 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:13:50 GMT[\r][\n]"
+[main] 15:13:50,711 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:13:50,711 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:13:50,711 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:13:50,712 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:13:50,712 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:13:50,712 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:13:50,712 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:13:50,713 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 15:13:50,713 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:13:50 GMT
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:13:50,714 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:13:50,746 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:13:50,746 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:13:50,779 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/1 is hit
+[main] 15:13:50,836 DEBUG [org.apache.http.wire]  << "{"id":1,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}"
+[main] 15:13:50,839 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b956cfa
+[main] 15:13:50,839 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:54272<->23.22.16.221:443 shut down
+[main] 15:13:51,142 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/1 response is stored
+[main] 15:13:51,155 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Response Codes are: [200]
+[main] 15:13:51,173 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Response code is correct - com.qmetry.qaf.automation.step.client is test:true
+[main] 15:13:51,174 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:51,210 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@47d023b7, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrect, sheetName=poc, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:13:51,232 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:13:51,233 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:51,233 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:51,233 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:13:51,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:51,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:51,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:13:51,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:13:51,260 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/2 is not null
+[main] 15:13:51,285 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:13:51,285 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:13:52,680 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:13:52,680 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:13:52,680 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:13:52,680 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:13:52,680 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:13:52,680 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/2 HTTP/1.1
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/2 HTTP/1.1[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> GET /v2/pet/2 HTTP/1.1
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:13:52,681 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:13:53,011 DEBUG [org.apache.http.wire]  << "HTTP/1.1 404 Not Found[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:13:52 GMT[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:13:53,012 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << HTTP/1.1 404 Not Found
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:13:52 GMT
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:13:53,013 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:13:53,013 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:13:53,014 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:13:53,015 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/2 is hit
+[main] 15:13:53,015 DEBUG [org.apache.http.wire]  << "{"code":1,"type":"error","message":"Pet not found"}"
+[main] 15:13:53,016 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@fb2e3fd
+[main] 15:13:53,016 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:54282<->23.22.16.221:443 shut down
+[main] 15:13:53,020 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/2 response is stored
+[main] 15:13:53,028 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Response Codes are: [404]
+[main] 15:13:53,031 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Response code is correct - com.qmetry.qaf.automation.step.client is test:true
+[main] 15:13:53,031 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:53,047 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@47d023b7, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrectHzePoqRjfT, sheetName=poc, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:13:53,054 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:13:53,055 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:53,055 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:53,056 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:13:53,063 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:53,063 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:53,063 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:13:53,064 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:13:53,076 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/3 is not null
+[main] 15:13:53,127 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:13:53,127 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:13:54,580 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:13:54,580 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:13:54,581 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:13:54,581 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:13:54,581 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:13:54,581 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/3 HTTP/1.1
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/3 HTTP/1.1[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:13:54,581 DEBUG [org.apache.http.headers] >> GET /v2/pet/3 HTTP/1.1
+[main] 15:13:54,581 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:13:54,581 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:13:54,581 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:13:54,581 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:13:54,582 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "HTTP/1.1 404 Not Found[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:13:54 GMT[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:13:54,913 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:13:54,914 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:13:54,914 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:13:54,914 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << HTTP/1.1 404 Not Found
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:13:54 GMT
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:13:54,914 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:13:54,915 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:13:54,915 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:13:54,916 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/3 is hit
+[main] 15:13:54,916 DEBUG [org.apache.http.wire]  << "{"code":1,"type":"error","message":"Pet not found"}"
+[main] 15:13:54,917 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@24386839
+[main] 15:13:54,917 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:54285<->23.22.16.221:443 shut down
+[main] 15:13:54,919 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/3 response is stored
+[main] 15:13:54,926 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Response Codes are: [404]
+[main] 15:13:54,928 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Response code is correct - com.qmetry.qaf.automation.step.client is test:true
+[main] 15:13:54,928 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:54,938 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@47d023b7, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrectbxwxzIuypj, sheetName=poc, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:13:54,945 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:13:54,945 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:54,946 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:54,946 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:13:54,947 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:54,947 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:54,947 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:13:54,947 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:13:54,956 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/4 is not null
+[main] 15:13:55,014 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:13:55,014 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:13:56,405 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:13:56,405 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:13:56,405 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:13:56,405 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:13:56,405 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:13:56,406 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/4 HTTP/1.1
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/4 HTTP/1.1[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> GET /v2/pet/4 HTTP/1.1
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:13:56,406 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:13:56,734 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 15:13:56,734 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:13:56 GMT[\r][\n]"
+[main] 15:13:56,734 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:13:56,734 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:13:56,735 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:13:56 GMT
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:13:56,735 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:13:56,736 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:13:56,736 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:13:56,737 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/4 is hit
+[main] 15:13:56,738 DEBUG [org.apache.http.wire]  << "{"id":4,"category":{"id":458,"name":"fnC1shusaaC_CRtB"},"name":"doggie","photoUrls":["sdd6AsaEL4zca-6_"],"tags":[{"id":62,"name":"8K5MQ-munvZ3EjO4') AND SLEEP(2)=0 LIMIT 1 # "}],"status":"sold"}"
+[main] 15:13:56,739 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@590adb41
+[main] 15:13:56,739 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:54286<->23.22.16.221:443 shut down
+[main] 15:13:56,744 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/4 response is stored
+[main] 15:13:56,750 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Response Codes are: [200]
+[main] 15:13:56,752 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Response code is correct - com.qmetry.qaf.automation.step.client is test:true
+[main] 15:13:56,753 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:56,761 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@47d023b7, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrectIJNwUUcixm, sheetName=poc, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:13:56,767 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:13:56,768 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:56,768 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:56,768 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:13:56,787 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:13:56,787 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:56,788 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:13:56,789 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:13:56,795 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/5 is not null
+[main] 15:13:56,826 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:13:56,827 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:13:58,238 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:13:58,239 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:13:58,239 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:13:58,239 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:13:58,239 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:13:58,239 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/5 HTTP/1.1
+[main] 15:13:58,239 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/5 HTTP/1.1[\r][\n]"
+[main] 15:13:58,239 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:13:58,239 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:13:58,239 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:13:58,239 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:13:58,240 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:13:58,240 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> GET /v2/pet/5 HTTP/1.1
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:13:58,240 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:13:58,574 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 15:13:58,574 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:13:58 GMT[\r][\n]"
+[main] 15:13:58,574 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:13:58,575 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:13:58 GMT
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:13:58,575 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:13:58,576 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:13:58,576 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:13:58,576 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:13:58,576 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 15:13:58,577 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/5 is hit
+[main] 15:13:58,578 DEBUG [org.apache.http.wire]  << "{"id":5,"name":"doggie","photoUrls":["https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg","url2"],"tags":[],"status":"sold"}"
+[main] 15:13:58,579 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3003827c
+[main] 15:13:58,579 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Connection 0.0.0.0:54287<->23.22.16.221:443 shut down
+[main] 15:13:58,583 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/5 response is stored
+[main] 15:13:58,590 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Response Codes are: [200]
+[main] 15:13:58,594 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Response code is correct - com.qmetry.qaf.automation.step.client is test:true
+[main] 15:13:58,594 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:58,615 DEBUG [com.qmetry.qaf.automation.testng.report.ReporterUtil] method:  result: fail groups: {dataFile=src/main/resources/file.xls, description=, groups=[Ljava.lang.String;@47d023b7, lineNo=33, name=Response code is correct, Priority=1, referece=src/test/resources/features/PreMigrationGet.feature, resultFileName=ResponseCodeIsCorrectUqcXfnolSN, sheetName=poc, sign=src.test.resources.features.PreMigrationGet.feature.Response code is correct( java.util.Map)[pri:1, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@1]}
+[main] 15:13:58,624 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterMethod
+[main] 15:13:58,630 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterMethod - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:58,630 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:58,631 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterClass
+[main] 15:13:58,631 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterClass - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:58,631 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:58,634 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: afterTest
+[main] 15:13:58,635 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: afterTest - com.qmetry.qaf.automation.ui is test:false
+[main] 15:13:58,636 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:13:58,636 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onfinish testcntext: start
+[main] 15:13:58,649 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] [Ljava.lang.StackTraceElement;@ea52184
+[main] 15:13:58,649 INFO  [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] Unable to create testng-failed-qas.xml
+[main] 15:13:58,649 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: start
+[main] 15:13:58,654 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] onFinish: done
+[main] 15:15:53,229 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2] QAFTestNGListener registered!...
+[main] 15:15:53,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] QAFTestNGListener registered!...
+[main] 15:15:53,235 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] QAFTestNGListener registered!...
+[main] 15:15:53,246 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] QAFTestNGListener registered!...
+[main] 15:15:53,251 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFSuiteListener] QAFTestNGListener registered!...
+[main] 15:15:53,575 ERROR [com.qmetry.qaf.automation.util.PropertyUtil] resources\application.properties (The system cannot find the path specified)
+[main] 15:15:53,582 INFO  [com.qmetry.qaf.automation.core.ConfigurationManager] ISFW build info: {qaf-Type=core, qaf-Revision=14, qaf-Version=2.1, qaf-Build-Time=01-Jan-2019 19:18:14}
+[main] 15:15:53,583 ERROR [com.qmetry.qaf.automation.core.ConfigurationManager] C:\Users\ahmad.idrees\Desktop\qa-api-test-bdd-framework\resources not exist!
+[main] 15:15:54,229 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupSuit
+[main] 15:15:54,234 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupSuit - com.qmetry.qaf.automation.testng is test:false
+[main] 15:15:54,235 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:15:54,264 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupTest
+[main] 15:15:54,267 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupTest - com.qmetry.qaf.automation.testng is test:false
+[main] 15:15:54,267 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:15:54,270 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFMethodInterceptor] Method Order interceptor called
+[main] 15:15:54,277 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setup
+[main] 15:15:54,278 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setup - com.qmetry.qaf.automation.testng is test:false
+[main] 15:15:54,278 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:15:54,598 INFO  [com.qmetry.qaf.automation.util.ExcelUtil] Rows : 6
+[main] 15:15:54,599 INFO  [com.qmetry.qaf.automation.util.ExcelUtil] Columns : 3
+[main] 15:15:54,651 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: setupMethod
+[main] 15:15:54,652 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: setupMethod - com.qmetry.qaf.automation.testng is test:false
+[main] 15:15:54,652 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] afterInvocation: Done
+[main] 15:15:54,653 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFResultListener] onTestStart: start
+[main] 15:15:54,825 DEBUG [com.qmetry.qaf.automation.testng.pro.QAFInvokedMethodListener2] beforeInvocation: Response code is correct
+[main] 15:15:55,310 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: Endpoint: https://petstore.swagger.io/v2/pet/1 is not null
+[main] 15:16:21,199 DEBUG [org.apache.http.impl.conn.BasicClientConnectionManager] Get connection for route {s}->https://petstore.swagger.io:443
+[main] 15:16:21,890 DEBUG [org.apache.http.impl.conn.DefaultClientConnectionOperator] Connecting to petstore.swagger.io:443
+[main] 15:16:23,713 DEBUG [org.apache.http.client.protocol.RequestAddCookies] CookieSpec selected: ignoreCookies
+[main] 15:16:23,715 DEBUG [org.apache.http.client.protocol.RequestAuthCache] Auth cache not set in the context
+[main] 15:16:23,716 DEBUG [org.apache.http.client.protocol.RequestTargetAuthentication] Target auth state: UNCHALLENGED
+[main] 15:16:23,716 DEBUG [org.apache.http.client.protocol.RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+[main] 15:16:23,717 DEBUG [org.apache.http.impl.client.DefaultHttpClient] Attempt 1 to execute request
+[main] 15:16:23,717 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Sending request: GET /v2/pet/1 HTTP/1.1
+[main] 15:16:23,717 DEBUG [org.apache.http.wire]  >> "GET /v2/pet/1 HTTP/1.1[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "Accept: */*[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "Host: petstore.swagger.io[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "Connection: Keep-Alive[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.wire]  >> "[\r][\n]"
+[main] 15:16:23,719 DEBUG [org.apache.http.headers] >> GET /v2/pet/1 HTTP/1.1
+[main] 15:16:23,719 DEBUG [org.apache.http.headers] >> Accept: */*
+[main] 15:16:23,720 DEBUG [org.apache.http.headers] >> Host: petstore.swagger.io
+[main] 15:16:23,720 DEBUG [org.apache.http.headers] >> Connection: Keep-Alive
+[main] 15:16:23,720 DEBUG [org.apache.http.headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+[main] 15:16:23,720 DEBUG [org.apache.http.headers] >> Accept-Encoding: gzip,deflate
+[main] 15:16:24,052 DEBUG [org.apache.http.wire]  << "HTTP/1.1 200 OK[\r][\n]"
+[main] 15:16:24,056 DEBUG [org.apache.http.wire]  << "Date: Tue, 21 Apr 2020 10:16:23 GMT[\r][\n]"
+[main] 15:16:24,057 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] 15:16:24,057 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+[main] 15:16:24,057 DEBUG [org.apache.http.wire]  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+[main] 15:16:24,057 DEBUG [org.apache.http.wire]  << "Content-Type: application/json[\r][\n]"
+[main] 15:16:24,058 DEBUG [org.apache.http.wire]  << "Connection: close[\r][\n]"
+[main] 15:16:24,058 DEBUG [org.apache.http.wire]  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+[main] 15:16:24,058 DEBUG [org.apache.http.wire]  << "[\r][\n]"
+[main] 15:16:24,060 DEBUG [org.apache.http.impl.conn.DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << HTTP/1.1 200 OK
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Date: Tue, 21 Apr 2020 10:16:23 GMT
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Access-Control-Allow-Origin: *
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Content-Type: application/json
+[main] 15:16:24,060 DEBUG [org.apache.http.headers] << Connection: close
+[main] 15:16:24,061 DEBUG [org.apache.http.headers] << Server: Jetty(9.2.9.v20150224)
+[main] 15:16:24,100 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json
+[main] 15:16:24,101 DEBUG [io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] 23:53:22,741 DEBUG [com.qmetry.qaf.automation.core.QAFTestBase] Info: https://petstore.swagger.io/v2/pet/1 is hit
