@@ -1,0 +1,11 @@
+.idea/
+.git/
+target/*
+bin/
+.settings/
+.project
+.classpath
+abc.bat
+qaf-project-ara.iml
+test-results/*
+logs/*
