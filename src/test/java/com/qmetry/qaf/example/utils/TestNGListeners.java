@@ -62,6 +62,15 @@ public class TestNGListeners implements ITestListener {
         BaseApiSteps.responseBodyList.clear();
         BaseApiSteps.responseCode.clear();
         BaseApiSteps.CreatedRecord = null;
+
+        //Benchmark
+        BaseApiSteps.migratedJson = null;
+        BaseApiSteps.benchMarkJson = null;
+        BaseApiSteps.originalResponse = null;
+        BaseApiSteps.migratedResponse = null;
+        BaseApiSteps.migratedResponseList = null;
+        BaseApiSteps.BenchMarkResponseList = null;
+        BaseApiSteps.benchMarkStructure = null;
     }
 
 
@@ -72,6 +81,15 @@ public class TestNGListeners implements ITestListener {
         BaseApiSteps.responseBodyList.clear();
         BaseApiSteps.responseCode.clear();
         BaseApiSteps.CreatedRecord = null;
+
+        //Benchmark
+        BaseApiSteps.migratedJson = null;
+        BaseApiSteps.benchMarkJson = null;
+        BaseApiSteps.originalResponse = null;
+        BaseApiSteps.migratedResponse = null;
+        BaseApiSteps.migratedResponseList = null;
+        BaseApiSteps.BenchMarkResponseList = null;
+        BaseApiSteps.benchMarkStructure = null;
     }
 
 
@@ -102,9 +120,20 @@ public class TestNGListeners implements ITestListener {
         //Zipping Files to Rar format
         TestNGListeners mfe = new TestNGListeners();
         List<String> files = new ArrayList<String>();
+
+        //Renaming the .bat file to .txt
+        File file = new File(System.getProperty("user.dir")+"\\abc.bat");
+        File newFile = new File(System.getProperty("user.dir")+"\\abc.txt");
+        if(file.renameTo(newFile)){
+            System.out.println(" Bat File rename success");;
+        }else{
+            System.out.println("Bat File rename failed");
+        }
+
+        //Adding the files
         files.add(System.getProperty("user.dir")+"\\dashboard.htm");
-        files.add(System.getProperty("user.dir")+"\\abc.bat");
-        files.add(System.getProperty("user.dir")+"\\test-results");
+        files.add(System.getProperty("user.dir")+"\\abc.txt");
+        //files.add(System.getProperty("user.dir")+"\\test-results");
         mfe.zipFiles(files);
 
         //Sending Report via gmail
@@ -178,7 +207,8 @@ public class TestNGListeners implements ITestListener {
         ZipOutputStream zipOut = null;
         FileInputStream fis = null;
         try {
-            File file = new File("C:/Users/ahmad.idrees/Desktop/testing.rar");
+            File file = new File(System.getProperty("user.dir")+"\\testing.rar");
+
             if(file.exists()){
                 System.out.println("File exists and it is read only, making it writable");
                 file.setWritable(true);
@@ -200,6 +230,14 @@ public class TestNGListeners implements ITestListener {
                 fis.close();
             }
             zipOut.close();
+            //Renaming the .rar file to .xyz
+            File newFile = new File(System.getProperty("user.dir")+"\\testing.xyz");
+            if(file.renameTo(newFile)){
+                System.out.println("Rar File rename successfully");;
+            }else{
+                System.out.println("Rar File rename failed");
+            }
+
             System.out.println("Done... Zipped the files...");
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
