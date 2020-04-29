@@ -9,7 +9,7 @@
         <parameter name="step.provider.pkg" value="com.qmetry.qaf.example.stepdefinitions"/>
         <parameter name="scenario.file.loc" value="src/test/resources/features/PostMigrationGet.feature"/>
 <!--        <parameter name="scenario.file.loc" value="src/test/resources/features"/>-->
-        <parameter name="serviceName" value="BenchMark"/>
+        <parameter name="serviceName" value="${serviceName}"/>
         <groups>
             <run>
                 <include name="Regression"/>

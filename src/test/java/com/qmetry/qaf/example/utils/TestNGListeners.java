@@ -66,8 +66,6 @@ public class TestNGListeners implements ITestListener {
         //Benchmark
         BaseApiSteps.migratedJson = null;
         BaseApiSteps.benchMarkJson = null;
-        BaseApiSteps.originalResponse = null;
-        BaseApiSteps.migratedResponse = null;
         BaseApiSteps.migratedResponseList = null;
         BaseApiSteps.BenchMarkResponseList = null;
         BaseApiSteps.benchMarkStructure = null;
@@ -85,8 +83,6 @@ public class TestNGListeners implements ITestListener {
         //Benchmark
         BaseApiSteps.migratedJson = null;
         BaseApiSteps.benchMarkJson = null;
-        BaseApiSteps.originalResponse = null;
-        BaseApiSteps.migratedResponse = null;
         BaseApiSteps.migratedResponseList = null;
         BaseApiSteps.BenchMarkResponseList = null;
         BaseApiSteps.benchMarkStructure = null;

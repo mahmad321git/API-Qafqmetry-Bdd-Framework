@@ -2,13 +2,11 @@ package com.qmetry.qaf.example.stepdefinitions;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.common.collect.Maps;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.step.QAFTestStepProvider;
 import com.qmetry.qaf.automation.util.Reporter;
 import com.qmetry.qaf.automation.util.Validator;
 import com.qmetry.qaf.example.utils.FileManager;
-import com.qmetry.qaf.example.utils.FileUtils;
 import io.restassured.RestAssured;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
@@ -16,17 +14,19 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 
 import lombok.extern.slf4j.Slf4j;
-import org.testng.util.Strings;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.TreeMap;
+import java.util.Arrays;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 
-/**
- * @author rehman.ashraf
- */
+
 @Slf4j
 @QAFTestStepProvider()
 public class BaseApiSteps {
@@ -38,14 +38,12 @@ public class BaseApiSteps {
     public static List<Object> responseCode = new ArrayList<>();
     public static String CreatedRecord;
 
+    //BenchMarkString
     public static String benchMarkStructure;
+
     //BenchMarkApi
     public static List<Map> BenchMarkResponseList = null;
     public static Map<Object, Object> benchMarkJson = null;
-
-    //Variables for RestAssured Responses
-    public static Response migratedResponse = null;
-    public static Response originalResponse = null;
 
     //MigratedApi
     public static List<Map> migratedResponseList = null;
@@ -161,32 +159,16 @@ public class BaseApiSteps {
         responseBodyJson.add(endpointResponse.jsonPath().getMap("$"));
     }
 
-    @QAFTestStep(description = "{Endpoint Name} is ! null")
-    public void endPointNameIsNotNull(String endpointName) {
-        if (endpointName != null) {
-            Reporter.log("Endpoint: " + endpointName + " is not null");
-        } else
-            Assert.fail();
-    }
-
-    @QAFTestStep(description = "{Migrated API Endpoint} is not empty")
-    public void migratedAPIURLIsNotNull(String migratedAPIURL) {
-        if (migratedAPIURL != null) {
-            Reporter.log("Endpoint: " + migratedAPIURL + " is not null");
-        } else
-            Assert.fail();
-    }
-
-    @QAFTestStep(description = "{Endpoint Name} body is retrieved")
+    @QAFTestStep(description = "{Endpoint Name} benchmark body is retrieved")
     public void benchMarkBodyRetrieval(String benchMarkEndPointName) {
-        File file = FileUtils.getFileFromResources("benchmarkresponse/" + benchMarkEndPointName + ".json");
+        File file = FileManager.getFileFromResources("benchmarkresponse/" + benchMarkEndPointName + ".json");
 
         ObjectMapper mapper = new ObjectMapper();
 
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 
         try {
-            benchMarkStructure = FileUtils.returnFile(file);
+            benchMarkStructure = FileManager.returnFile(file);
 
             if (benchMarkStructure.charAt(0) == '[') {
                 // convert JSON string to List of Map
@@ -203,17 +185,17 @@ public class BaseApiSteps {
 
     @QAFTestStep(description = "{Migrated API EndPoint} is being hitted")
     public void migratedEndPointHit(String migratedEndPointHit) {
-        originalResponse = RestAssured.given().urlEncodingEnabled(false).headers(headers).get(migratedEndPointHit);
+        endpointResponse = RestAssured.given().urlEncodingEnabled(false).headers(headers).get(migratedEndPointHit);
     }
 
     @QAFTestStep(description = "BenchMark vs Migrated Endpoint Comparison is performed")
     public void benchMarkVsMigratedBodyComparison() {
 
-        if((originalResponse.jsonPath().get()) instanceof HashMap) {
-            migratedJson = new TreeMap<>(originalResponse.jsonPath().getMap("$"));
+        if((endpointResponse.jsonPath().get()) instanceof HashMap) {
+            migratedJson = new TreeMap<>(endpointResponse.jsonPath().getMap("$"));
         }
-        else if((originalResponse.jsonPath().get()) instanceof ArrayList) {
-            migratedResponseList = originalResponse.jsonPath().getList("$");
+        else if((endpointResponse.jsonPath().get()) instanceof ArrayList) {
+            migratedResponseList = endpointResponse.jsonPath().getList("$");
         } else {
             Reporter.log("SOURCE_INVALID_RESPONSE_MESSAGE");
         }
