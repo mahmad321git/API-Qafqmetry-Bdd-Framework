@@ -16,8 +16,8 @@ Feature: Post-Migration-Get
    @sheetName:${serviceName}
    Scenario: Response Body is correct
 
-     Given   '${Endpoint Name}' is ! null
-     And     '${Migrated API Endpoint}' is not empty
-     When    '${Endpoint Name}' body is retrieved
+     Given   '${Endpoint Name}' is not null
+     And     '${Migrated API Endpoint}' is not null
+     When    '${Endpoint Name}' benchmark body is retrieved
      And     '${Migrated API Endpoint}' is being hitted
      And      BenchMark vs Migrated Endpoint Comparison is performed

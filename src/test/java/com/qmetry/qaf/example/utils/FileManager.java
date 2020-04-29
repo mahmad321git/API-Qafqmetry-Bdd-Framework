@@ -1,8 +1,7 @@
 package com.qmetry.qaf.example.utils;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.net.URL;
 import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
@@ -55,5 +54,43 @@ public class FileManager {
             log.error(e.getMessage());
             return null;
         }
+    }
+
+    /**
+     * get file from classpath, resources folder
+     * @param fileName Name of the file
+     */
+    public synchronized File getFileFromResources(String fileName) {
+
+        ClassLoader classLoader = FileManager.class.getClassLoader();
+        URL resource = classLoader.getResource(fileName);
+        if (resource == null) {
+            throw new IllegalArgumentException("file is not found!");
+        } else {
+            return new File(resource.getFile());
+        }
+    }
+
+    /**
+     * Return contents of json file
+     *
+     * @param file The file to be read
+     * @return String
+     */
+    public synchronized String returnFile(File file) {
+
+        StringBuilder contentBuilder = new StringBuilder();
+        String line;
+        if (file == null) return "File not found";
+
+        try (FileReader reader = new FileReader(file);
+             BufferedReader br = new BufferedReader(reader)) {
+            while ((line = br.readLine()) != null) {
+                contentBuilder.append(line).append("\n");
+            }
+        } catch (IOException e) {
+            log.info(e.getMessage());
+        }
+        return contentBuilder.toString();
     }
 }
