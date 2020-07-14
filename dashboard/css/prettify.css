@@ -22,6 +22,7 @@
 .pln { color: #000 }  /* plain text */
 
 
+
 @media screen {
   .str { color: #080 }  /* string content */
   .kwd { color: #008 }  /* a keyword */
