@@ -10,11 +10,13 @@
 - # of End points with in an API: 10</br></p>
 
 📐 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 & 𝗟𝗶𝗯𝗿𝗮𝗿𝗶𝗲𝘀 𝘂𝘀𝗲𝗱:
-
-RestAssured
-TestNg
-BDD (Gherkins- Cucumber)
+- RestAssured
+- TestNg
+- BDD (Gherkins- Cucumber)
 
 📜 𝗙𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴 𝘄𝗲 𝗵𝗮𝘃𝗲 𝘂𝘀𝗲𝗱:
+- QAF
 
-Extent 
+👉 𝗦𝗶𝗹𝗲𝗻𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸:
+RESTful API Support
+Configurable API endpoints from a separate config file
