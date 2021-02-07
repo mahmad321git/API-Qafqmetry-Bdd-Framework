@@ -18,6 +18,14 @@
 - QAF
 
 👉 𝗦𝗶𝗹𝗲𝗻𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸:
-RESTful API Support
-Configurable API endpoints from a separate config file
-Retry Mechanism in case of failure (Configurable)
+- RESTful API Support</br>
+- Configurable API endpoints from a separate config file</br>
+- Cross-Environment execution feasibility</br>
+- Parallel test case execution feasibility</br>
+- Retry Mechanism in case of failure (Configurable)</br>
+- Test Suite Management (Configurable)</br>
+- API vs API comparison (JSON Payloads & Responses)</br>
+  - Response Code Validation (Source vs Target)</br>
+  - Response Body [Data+Attributes] Validation (Source vs Target)</br>
+- A concise html test result report yielded as Extent Report</br>
+- Test Results email as an attachment to desired audience via AWS SES (Simple Email Service)</br>
