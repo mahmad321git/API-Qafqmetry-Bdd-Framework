@@ -20,3 +20,4 @@
 👉 𝗦𝗶𝗹𝗲𝗻𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸:
 RESTful API Support
 Configurable API endpoints from a separate config file
+Retry Mechanism in case of failure (Configurable)
