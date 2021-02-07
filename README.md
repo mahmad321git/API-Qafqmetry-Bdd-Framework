@@ -8,3 +8,13 @@ Lets take an Considerate Assumption:
 - # of Services that needs to be tested: 10
 - # of API's that Exist with in the service: 10
 - # of End points with in an API: 10
+
+📐 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 & 𝗟𝗶𝗯𝗿𝗮𝗿𝗶𝗲𝘀 𝘂𝘀𝗲𝗱:
+
+RestAssured
+TestNg
+BDD (Gherkins- Cucumber)
+
+📜 𝗙𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴 𝘄𝗲 𝗵𝗮𝘃𝗲 𝘂𝘀𝗲𝗱:
+
+Extent Report
