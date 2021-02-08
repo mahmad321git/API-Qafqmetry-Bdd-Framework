@@ -19,6 +19,7 @@
 
 👉 𝗦𝗶𝗹𝗲𝗻𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸:
 - RESTful API Support</br>
+- Gherkin - Cucumber BDD sUPPORT </br>
 - Configurable API endpoints from a separate config file</br>
 - Cross-Environment execution feasibility</br>
 - Parallel test case execution feasibility</br>
@@ -35,6 +36,7 @@
 - Language: Java
 
 🎲 𝗖𝗹𝗼𝗻𝗶𝗻𝗴 & 𝗦𝗲𝘁𝘂𝗽 𝗚𝘂𝗶𝗱𝗲:
-- 
+- git clone https://github.com/mahmad321git/API-Qafqmetry-Bdd-Framework.git
 
 ⛏ 𝗠𝗮𝗶𝗻 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝗙𝗶𝗹𝗲𝘀:
+- BaseApiTests
